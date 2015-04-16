@@ -1,1 +1,8 @@
+# creation of the flashcards by the user
 
+def create_flashcard:
+#asks user to name set of flashcards or add to existing set
+#asks user to input first side of flashcard
+#asks user to input second side of flashcard
+
+#saves front and back in the appropriate dictionary
