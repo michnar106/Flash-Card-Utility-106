@@ -1,8 +1,11 @@
-# creation of the flashcards by the user
+# The purpose of this page is the creation of the flashcards by the user
 
-def create_flashcard:
+
+def create_flashcard():
+  new_flashcard_dict = {}
+  new_set = 
 #asks user to name set of flashcards or add to existing set
 #asks user to input first side of flashcard
 #asks user to input second side of flashcard
-
 #saves front and back in the appropriate dictionary
+  return None
