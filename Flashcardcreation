@@ -1,11 +1,33 @@
-# The purpose of this page is the creation of the flashcards by the user
-
-
-def create_flashcard():
-  new_flashcard_dict = {}
-  new_set = 
-#asks user to name set of flashcards or add to existing set
-#asks user to input first side of flashcard
-#asks user to input second side of flashcard
-#saves front and back in the appropriate dictionary
-  return None
+print 
+print "________________________________________Flashcards!________________________________________"
+print 
+print
+front_of_card = raw_input("""Enter the front parts of your cards here. Separate each card with a comma. Press enter when done.   """)
+dafront = front_of_card.split(",")
+print 
+print
+back_of_card = raw_input("""Enter the corresponding answers here. Separate each card with a comma. Press enter when done.
+""")
+daback = back_of_card.split(",")
+print
+webstersdict = {}
+for x in range(len(dafront)):
+    webstersdict[dafront[x]] = daback[x]   
+print
+print "___________________________________________________________________________________________"
+print webstersdict 
+print "The line above shows all of your flashcard data together. Comment that line out when you don't want to see the answers."
+print
+print
+ff = webstersdict.keys()
+print ff
+print "-- These are the keys (fronts) of your cards. For the next raw_input, you can test yourself by inputting a key, guessing its value, and then pressing enter to see the answer. Good luck!"
+print "___________________________________________________________________________________________"
+print   
+checkyoself = raw_input("""put in key name of card you want to use.
+""")
+print ":is:"
+print webstersdict[checkyoself]
+#This only works as a one time thing. after the last statement prints, you have to start all over again. can anyone help 
+#make the checkyoself part happen over and over again unline the user, for example, types 'quit'? What I've been trying 
+#wasn't working.
