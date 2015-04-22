@@ -6,6 +6,15 @@ def create_flashcard():
   new_set = 
 #asks user to name set of flashcards or add to existing set
 #asks user to input first side of flashcard
+for x in new_flash_card_dict:
+  first_side=raw_input("Input the front side of the flashcard")
+  
 #asks user to input second side of flashcard
+for y in new_flash_card_dict:
+  second_side=raw_input("Input the front side of the flashcard")
+  
 #saves front and back in the appropriate dictionary
+
+#use front side as key, and back side as value in the dictionary
+#should look something like flashcard_dictionary={front1:back1, front2:back2, front3:back3}
   return None
