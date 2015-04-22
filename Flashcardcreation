@@ -16,4 +16,5 @@ for y in new_flash_card_dict:
 #saves front and back in the appropriate dictionary
 
 #use front side as key, and back side as value in the dictionary
+#should look something like flashcard_dictionary={front1:back1, front2:back2, front3:back3}
   return None
